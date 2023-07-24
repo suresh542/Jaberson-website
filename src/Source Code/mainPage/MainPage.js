@@ -75,15 +75,18 @@ export default function MainPage() {
                 </div>
 
 
-              <div className="MySkills">
-                <MySkills/>
-              </div>
-              <div className="Portfolio">
-                <Portfolio/>
-              </div>
-                <div className="footer">
-                    <Footer/>
+                <div className="MySkills">
+                    <MySkills />
                 </div>
+                <div className="Portfolio">
+                    <Portfolio />
+                </div>
+                <div className="footer ">
+                    <Footer />
+                </div>
+            </div>
+            <div className="byJaberson ">
+                @ 2023 by Jaberson
             </div>
         </div>
     )
