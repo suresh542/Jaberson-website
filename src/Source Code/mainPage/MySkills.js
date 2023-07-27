@@ -35,7 +35,35 @@ export default function MySkills() {
                         </div>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6">
-                        <div className="">
+                        <div className="skillsLevel">
+                            <div className="figma">
+                                <label for="customRange3" class="form-label">Figma</label>
+                                <input type="range" class="form-range" min="0" max="100" step="0.5" id="customRange3"/>
+                            </div>
+                            <div className="adobeXd">
+                                <span>
+                                    Adobe Xd
+                                </span>
+                                <div>
+                                    <input type="range" />
+                                </div>
+                            </div>
+                            <div className="Photoshop">
+                                <span>
+                                    Photoshop
+                                </span>
+                                <div>
+                                    <input type="range" />
+                                </div>
+                            </div>
+                            <div className="Illustrator">
+                                <span>
+                                    Illustrator
+                                </span>
+                                <div>
+                                    <input type="range" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

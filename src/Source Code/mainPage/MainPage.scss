@@ -29,8 +29,8 @@
             padding-left: 30px;
             padding-right: 30px;
             font-size: 20px;
-            border-left: 1px solid #BD0F71;
-            border-right: 1px solid #BD0F71;
+            border-left: 1px solid linear-gradient(89.71deg, #BD0F71 0.22%, #7F028A 99.72%);
+            border-right: 1px solid linear-gradient(89.71deg, #BD0F71 0.22%, #7F028A 99.72%);
 
             &:first-child {
                 border-left: none;
@@ -67,6 +67,8 @@
 }
 
 .AboutMe {
+    width: 100%;
+    height: 100vh;
     padding-top: 150px;
 
     .AboutMeImage {
@@ -165,4 +167,8 @@
     align-items: center;
     text-align: center;
 
+}
+.introductions{
+    width: 100%;
+    height: 100vh;
 }
