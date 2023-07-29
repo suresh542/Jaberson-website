@@ -3,11 +3,11 @@ import "./Portfolio.scss"
 
 export default function Portfolio() {
     return (
-        <div className='Portfolio'>
+        <div className='Portfolio' id='Portfolio' data-aos="fade-up">
             <div className="title">
                 Portfolio
             </div>
-            <div className="row mt-5">
+            <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-4" id='portfolioImg'>
                     <div className='portfolioImg'>
 

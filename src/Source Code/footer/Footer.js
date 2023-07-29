@@ -3,7 +3,7 @@ import "./Footer.scss"
 
 export default function Footer() {
     return (
-        <div className='Footer'>
+        <div className='Footer' id='Contact' data-aos="fade-up">
             <div className="title">
                 Get In Touch
             </div>

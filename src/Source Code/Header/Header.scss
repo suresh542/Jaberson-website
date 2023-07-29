@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;1,300&display=swap');
-.mainHeader{
+
+.mainHeader {
     background: rgba(31, 25, 31, 0.899);
 
 }
+
 #navbarSupportedContent {
     ul {
         li {
-            transform: skewX(-15deg);
-            padding: 30px 70px 30px 70px;
+            transform: skewX(-10deg);
+            padding: 10px;
 
             a {
                 color: #555455;
-                transform: skewX(15deg);
+                transform: skewX(10deg);
                 font-size: 20px;
                 letter-spacing: 2%;
                 line-height: 16px;
                 font-family: 'Josefin Sans', sans-serif;
-
+                width: 100%;
+                height: 100%;
+                padding: 30px 70px 30px 70px;
 
             }
 

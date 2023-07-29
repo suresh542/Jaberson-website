@@ -4,9 +4,9 @@ import MainLogo from "../images/MainLogo.png"
 
 export default function Header() {
     return (
-        <div className='mainHeader container-flex ps-5 pe-5'>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
-                <div class="container-fluid">
+        <div className='mainHeader container-flex '>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ps-5 ps-md-5 pe-md-5">
+                <div class="container-fluid ps-0">
                     <a class="navbar-brand" href="Home">
                         <img src={MainLogo} alt="" />
                     </a>
@@ -15,17 +15,17 @@ export default function Header() {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-lg-0 d-flex">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="About">About</a>
+                            <li class="nav-item" href="#AboutMe">
+                                <a class="nav-link active" aria-current="page" href="#AboutMe">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Skills">Skills</a>
+                                <a class="nav-link" href="#mySkills">Skills</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Portfolio">Portfolio</a>
+                                <a class="nav-link" href="#Portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Contact">Contact</a>
+                                <a class="nav-link" href="#Contact">Contact</a>
                             </li>
                         </ul>
                     </div>
