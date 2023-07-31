@@ -16,7 +16,7 @@ export default function MainPage() {
             <div className="MainBody">
                 <div className="introductions ">
                     <div className="row">
-                        <div className="col-md-4 ps-5 pe-0">
+                        <div className="col-md-4 ps-md-5 ">
                             <div className=' pe-0'>
                                 <div className="socialMediaLogos d-flex justify-content-start">
                                     <i class="fa-brands fa-facebook-f"></i>
@@ -34,25 +34,25 @@ export default function MainPage() {
                             </div>
                         </div>
                         <div className="col-md-8">
-                            <div className='myImage '>
+                            <div className='myImage pe-md-5'>
                                 <img src={Hello} alt="" width={"100%"} height={"100%"} />
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="AboutMe " id='AboutMe' data-aos="fade-up">
+                <div className="AboutMe ps-md-5 pe-md-5" id='AboutMe' data-aos="fade-up">
                     <div className="row">
                         <div className="col-xs-12 col-sm-12 col-md-6">
                             <div className="AboutMeImage ">
                                 <img src={AboutMe} alt="" />
                             </div>
                         </div>
-                        <div className="col-xs-12 col-sm-12 col-md-6">
+                        <div className="col-xs-12 col-sm-12 col-md-6 ">
                             <div className="title">
                                 About Me
                             </div>
-                            <div className="HiThere mt-5">
-                                Hi There
+                            <div className="HiThere mt-5 ">
+                               <span className='border border-light'> Hi There</span>
                             </div>
                             <div className="content mt-5">
                                 I'm a UI/UX Designer based in Tamilnadu India, with a passion for designing
@@ -79,15 +79,15 @@ export default function MainPage() {
                         </div>
                     </div>
                 </div>
-                <div className="MySkills">
+                <div className="MySkills ps-md-5 pe-md-5">
                     <MySkills />
                 </div>
 
-                <div className="Portfolio ">
+                <div className="Portfolio ps-md-5 pe-md-5">
                     <Portfolio />
                 </div>
-                
-                <div className="footer ">
+
+                <div className="footer ps-md-5 pe-md-5">
                     <Footer />
                 </div>
             </div>

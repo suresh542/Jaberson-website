@@ -58,6 +58,10 @@
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
+    a{
+        color: white;
+        text-decoration: none;
+    }
 }
 
 .socialMediaIcons {
@@ -68,3 +72,15 @@
     text-align: center;
 }
 
+
+@media only screen and (max-width:992px){
+    #contactMe{
+        margin-top: 50px;
+    }
+    .col-8{
+        .Contact,.phoneNumber{
+            padding: 0 20px 0 20px;
+            font-size: 20px;
+        }
+    }
+}

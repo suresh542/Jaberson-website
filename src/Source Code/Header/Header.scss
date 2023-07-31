@@ -4,6 +4,20 @@
     background: rgba(31, 25, 31, 0.899);
 
 }
+#menuIcons{
+    color: white;
+    outline: none;
+    // border: 1px solid white;
+    margin-right: 0px;
+}
+#menuIcons{
+    color: none;
+    border: none;
+    outline-style: none;
+    &:active{
+        border: none;
+    }
+}
 
 #navbarSupportedContent {
     ul {
@@ -35,12 +49,50 @@
                         align-items: center;
                         text-align: center;
                         display: block;
-                        width: 100%;
+                        width: 50%;
                         height: 1px;
                         background: #ffffff;
                         right: 0;
                         left: 0;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:992px) {
+    ul {
+        li {
+            &:hover {
+                background: linear-gradient(89.71deg, #BD0F71 0.22%, #7F028A 99.72%);
+                margin-left: 130px;
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:702px) {
+    ul {
+        li {
+            &:hover {
+                background: linear-gradient(89.71deg, #BD0F71 0.22%, #7F028A 99.72%);
+                margin-left: 64px;
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                &::after {
+                    content: "";
+                    align-items: center;
+                    text-align: center;
+                    display: none;
                 }
             }
         }

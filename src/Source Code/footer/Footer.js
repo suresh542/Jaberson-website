@@ -9,7 +9,7 @@ export default function Footer() {
             </div>
             <div className="container mt-5" >
                 <div className="row">
-                    <div className="col-xs-12 col-sm-12 col-md-4" id=''>
+                    <div className="col-xs-12 col-sm-12 col-md-4" id='contactMe'>
                         <div className="row">
                             <div className="col-4">
                                 <div className='ContactIcons p-3'>
@@ -26,7 +26,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xs-12 col-sm-12 col-md-4" id=''>
+                    <div className="col-xs-12 col-sm-12 col-md-4" id='contactMe'>
                         <div className="row">
                             <div className="col-4">
                                 <div className='ContactIcons p-3'>
@@ -38,12 +38,12 @@ export default function Footer() {
                                     Email
                                 </div>
                                 <div className="phoneNumber mt-4">
-                                    jaberson98@gmail.com
+                                <a href="jaberson98@gmail.com">jaberson98@gmail.com</a>     
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xs-12 col-sm-12 col-md-4" id=''>
+                    <div className="col-xs-12 col-sm-12 col-md-4" id='contactMe'>
                         <div className="row">
                             <div className="col-4">
                                 <div className='ContactIcons p-3'>

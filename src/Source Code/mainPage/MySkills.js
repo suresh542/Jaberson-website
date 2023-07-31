@@ -39,10 +39,14 @@ export default function MySkills() {
                     <div className="col-xs-12 col-sm-12 col-md-6">
                         <div className="skillsLevel mt-5">
                             <div className="figma">
-                                <form action="">
                                     <label for="customRange3" class="form-label">Figma</label>
-                                    {/* <input type="range" class="form-ranges" min="0" max="100" step="0.5" id="customRange3"/> */}
-                                </form>
+                                    <div>
+                                    <input type="range" class="form-ranges" min="0" max="100" value="85" id="customRange3"/>
+                                    </div>
+                                    <div className="selector">
+                                        <div className="selectBtn"></div>
+                                    </div>
+                                    <div className='selectValue'></div>
                             </div>
                             <div className="adobeXd">
                                 <span>

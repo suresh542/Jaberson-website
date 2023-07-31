@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;1,300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.JabersonWebPage {
+  background-color: #000000;
+}
+
+.MainBody {
+  width: 100%;
+  padding: 50px 20px 0 20px;
+}
+.MainBody .socialMediaLogos {
+  color: white;
+  align-items: start;
+}
+.MainBody .socialMediaLogos i {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  border-left: 1px solid #BD0F71;
+}
+.MainBody .socialMediaLogos i:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+.MainBody .socialMediaLogos i:last-child {
+  border-right: none;
+}
+.MainBody .myName {
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.MainBody .designations {
+  padding: 20px;
+  width: 60%;
+  font-size: 36px;
+  display: flex;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 5px solid rgb(192, 192, 194);
+}
+
+.AboutMe {
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+}
+.AboutMe .AboutMeImage img {
+  width: 100%;
+}
+.AboutMe .title {
+  font-size: 48px;
+  color: rgb(192, 192, 194);
+  font-family: "Josefin Sans", sans-serif;
+  text-align: start;
+}
+.AboutMe .HiThere {
+  padding: 10px;
+  width: 20%;
+  font-size: 20px;
+  display: flex;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid rgb(192, 192, 194);
+}
+.AboutMe .content {
+  font-size: 23px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(192, 192, 194);
+  text-align: justify;
+}
+.AboutMe .buttonsHere {
+  transform: skewX(-15deg);
+}
+.AboutMe .buttonsHere .hereMe1 {
+  display: flex;
+}
+.AboutMe #hereMe {
+  background: linear-gradient(89.71deg, #BD0F71 0.22%, #7F028A 99.72%);
+  width: 200px;
+  height: 100%;
+  font-size: 16px;
+  border-radius: 0;
+  color: white;
+}
+.AboutMe #hereMe span {
+  transform: skewX(15deg);
+}
+.AboutMe .fa-arrow-right {
+  background: linear-gradient(89.71deg, #BD0F71 0.22%, #7F028A 99.72%);
+  width: 50px;
+  height: 100%;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.AboutMe #CVBtns {
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.AboutMe #CVBtns span {
+  transform: skewX(15deg);
+}
+
+.byJaberson {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 50px;
+  background-color: rgb(31, 25, 31);
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.introductions {
+  width: 100%;
+  height: 80vh;
+  margin-top: 200px;
+}
+
+@media only screen and (max-width: 992px) {
+  .introductions {
+    margin-top: 100px;
+  }
+  .introductions .socialMediaLogos {
+    padding: 5px 10px 0 0px;
+  }
+  .introductions .socialMediaLogos i {
+    font-size: 18px;
+  }
+  .introductions .myName {
+    padding-top: 40px;
+    font-size: 50px;
+  }
+  .introductions .designations {
+    margin-top: 40px;
+    width: 90%;
+  }
+  .AboutMe .HiThere {
+    width: 50%;
+    text-align: justify;
+  }
+  .AboutMe .content {
+    text-align: justify;
+  }
+  .AboutMe .buttonsHere .hereMe1 {
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding: 0 20px 0px 50px;
+  }
+  .AboutMe .CVBtnHere {
+    padding-top: 30px;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+  }
+  .myImage {
+    padding: 150px 0 0 0px;
+  }
+  .MySkills {
+    padding-top: 100px;
+  }
+}/*# sourceMappingURL=MainPage.css.map */

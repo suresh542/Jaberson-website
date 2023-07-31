@@ -10,8 +10,8 @@ export default function Header() {
                     <a class="navbar-brand" href="Home">
                         <img src={MainLogo} alt="" />
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars"></i>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" id="menuIcon" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" id='menuIcons'></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-lg-0 d-flex">

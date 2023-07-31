@@ -1,0 +1,105 @@
+.mySkills {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+}
+.mySkills .title {
+  font-size: 48px;
+  color: rgb(192, 192, 194);
+  font-family: "Josefin Sans", sans-serif;
+  text-align: start;
+}
+.mySkills .EveryDay {
+  text-align: start;
+  margin-top: 40px;
+}
+.mySkills .EveryDay span {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  text-align: start;
+}
+.mySkills .content {
+  font-size: 23px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(192, 192, 194);
+  text-align: justify;
+}
+.mySkills #ContactBtns {
+  border: 1px solid white;
+  height: 100%;
+  padding: 10px;
+  transform: skewX(-15deg);
+  font-size: 20px;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.mySkills #ContactBtns span {
+  padding: 0 30px 0 30px;
+  transform: skewX(15deg);
+}
+
+.skillsLevel {
+  width: 60%;
+  position: relative;
+  font-size: 35px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.skillsLevel #customRange3 {
+  -webkit-appearance: none;
+  height: 7px;
+  outline: none;
+  border-radius: 3px;
+}
+.skillsLevel #customRange3::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+}
+.skillsLevel .selector {
+  height: 105px;
+  width: 48px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.skillsLevel .selectBtn {
+  height: 48px;
+  width: 48px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  bottom: 0;
+  position: absolute;
+}
+.skillsLevel .form-range::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  box-shadow: 200px 0 0 linear-gradient(89.71deg, #BD0F71 0.22%, #7F028A 99.72%);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  .EveryDay {
+    margin-top: 50px;
+  }
+  .content {
+    text-align: justify;
+  }
+}/*# sourceMappingURL=MySkills.css.map */
