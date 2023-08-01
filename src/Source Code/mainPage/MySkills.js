@@ -4,7 +4,7 @@ import "./MySkills.scss"
 export default function MySkills() {
     return (
         <div>
-            <div className="mySkills " id='mySkills' data-aos="fade-up">
+            <div className="mySkills mt-5" id='mySkills' data-aos="fade-up">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-6">
                         <div className="title">
