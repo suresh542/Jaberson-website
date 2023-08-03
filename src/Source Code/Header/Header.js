@@ -4,9 +4,9 @@ import MainLogo from "../images/MainLogo.png"
 
 export default function Header() {
     return (
-        <div className='mainHeader container-flex '>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ps-5 ps-md-5 pe-md-5">
-                <div class="container-fluid ps-0">
+        <div className='mainHeader'>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid ">
                     <a class="navbar-brand" href="Home">
                         <img src={MainLogo} alt="" />
                     </a>

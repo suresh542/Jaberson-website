@@ -3,6 +3,11 @@ import "./Footer.scss"
 import PhoneIcons from "../images/contact icons/Phone.png"
 import mailIcons from "../images/contact icons/Mail.png"
 import locationIcons from "../images/contact icons/Location.png"
+import FacebookIcons from "../images/icons/facebook.png"
+import TwitterIcons from "../images/icons/twitter.png"
+import LinkedInIcons from "../images/icons/linkedin.png"
+import BehanceIcons from "../images/icons/behance.png"
+import InstagramIcons from "../images/icons/instagram.png"
 
 export default function Footer() {
     return (
@@ -33,7 +38,7 @@ export default function Footer() {
                         <div className="row">
                             <div className="col-4">
                                 <div className='ContactIcons p-3'>
-                                <img src={mailIcons} alt="" />
+                                    <img src={mailIcons} alt="" />
                                 </div>
                             </div>
                             <div className="col-8">
@@ -41,7 +46,7 @@ export default function Footer() {
                                     Email
                                 </div>
                                 <div className="phoneNumber mt-4">
-                                <a href="jaberson98@gmail.com">jaberson98@gmail.com</a>     
+                                    <a href="jaberson98@gmail.com">jaberson98@gmail.com</a>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +55,7 @@ export default function Footer() {
                         <div className="row">
                             <div className="col-4">
                                 <div className='ContactIcons p-3'>
-                                <img src={locationIcons} alt="" />
+                                    <img src={locationIcons} alt="" />
                                 </div>
                             </div>
                             <div className="col-8">
@@ -67,14 +72,14 @@ export default function Footer() {
             </div>
             <div className="socialMediaIcons ">
                 <div className="socialMediaLogos d-flex justify-content-start ">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-behance"></i>
+                    <img src={FacebookIcons} alt="" />
+                    <img src={InstagramIcons} alt="" />
+                    <img src={TwitterIcons} alt="" />
+                    <img src={LinkedInIcons} alt="" />
+                    <img src={BehanceIcons} alt="" />
                 </div>
             </div>
-            
+
         </div>
     )
 }

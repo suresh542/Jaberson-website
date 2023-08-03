@@ -22,7 +22,7 @@ export default function MainPage() {
                 <div className="introductions ">
                     <div className="row">
                         <div className="col-md-4 ps-md-5 ">
-                            <div className=' pe-0'>
+                            <div className=''>
                                 <div className="socialMediaLogos d-flex justify-content-start">
                                     <img src={FacebookIcons} alt="" />
                                     <img src={InstagramIcons} alt="" />
