@@ -1,5 +1,9 @@
 import React from 'react'
 import "./MySkills.scss"
+import figmaImage from "../images/skills image/figma.png"
+import XDImage from "../images/skills image/XD.png"
+import PSImage from "../images/skills image/Photoshop.png"
+import AIImage from "../images/skills image/AI.png"
 
 export default function MySkills() {
     return (
@@ -37,31 +41,27 @@ export default function MySkills() {
                         </div>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6">
-                        <div className="skillsLevel mt-5">
-                            <div className="figma">
-                                    <label for="customRange3" class="form-label">Figma</label>
+                        <div className="skillsLevel">
+                            <div className="figma mb-5">
+                                    <span class="form-label">Figma</span>
                                     <div>
-                                    <input type="range" class="form-ranges" min="0" max="100" value="85" id="customRange3"/>
+                                        <img src={figmaImage} alt="" width={"100%"} />
                                     </div>
-                                    <div className="selector">
-                                        <div className="selectBtn"></div>
-                                    </div>
-                                    <div className='selectValue'></div>
                             </div>
-                            <div className="adobeXd">
+                            <div className="adobeXd mb-5">
                                 <span>
                                     Adobe Xd
                                 </span>
                                 <div>
-                                    {/* <input type="range" /> */}
+                                <img src={XDImage} alt=""  width={"100%"}/>
                                 </div>
                             </div>
-                            <div className="Photoshop">
+                            <div className="Photoshop mb-5">
                                 <span>
                                     Photoshop
                                 </span>
                                 <div>
-                                    {/* <input type="range" /> */}
+                                <img src={PSImage} alt="" width={"100%"} />
                                 </div>
                             </div>
                             <div className="Illustrator">
@@ -69,7 +69,7 @@ export default function MySkills() {
                                     Illustrator
                                 </span>
                                 <div>
-                                    {/* <input type="range" /> */}
+                                <img src={AIImage} alt="" width={"100%"} />
                                 </div>
                             </div>
                         </div>

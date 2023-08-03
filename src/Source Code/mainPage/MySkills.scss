@@ -2,21 +2,24 @@
     width: 100%;
     height: auto;
     padding-top: 100px;
+
     .title {
         font-size: 48px;
         color: rgba(192, 192, 194, 1);
         font-family: 'Josefin Sans', sans-serif;
         text-align: start;
     }
+
     .EveryDay {
         text-align: start;
         margin-top: 40px;
+
         span {
             padding: 20px;
             font-size: 20px;
             font-weight: 400;
             font-family: 'Josefin Sans', sans-serif;
-            color: white;
+            color: rgba(192, 192, 194, 1);
             text-align: start;
         }
     }
@@ -35,11 +38,12 @@
         padding: 10px;
         transform: skewX(-15deg);
         font-size: 20px;
-        color: white;
+        color: rgba(192, 192, 194, 1);
         display: flex;
         text-align: center;
         justify-content: center;
         align-items: center;
+
         span {
             padding: 0 30px 0 30px;
             transform: skewX(15deg);
@@ -50,76 +54,17 @@
 .skillsLevel {
     width: 60%;
     position: relative;
-    font-size: 35px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
-
-    #customRange3{
-        -webkit-appearance: none;
-        height: 7px;
-        outline: none;
-        border-radius: 3px;
-    }
-    #customRange3::-webkit-slider-thumb{
-        -webkit-appearance: none;
-        width: 48px;
-        height: 48px;
-        cursor: pointer;
-        z-index: 3;
-        position: relative;
-    }
-    .selector{
-        height: 105px;
-        width: 48px;
-        position: absolute;
-        bottom: -20px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 2;
-    }
-    .selectBtn{
-        height: 48px;
-        width: 48px;
-        background-color: black;
-        // background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Ffigma_5968704&psig=AOvVaw0wttNeOytq1wvFtHVV49fw&ust=1690866180247000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOigyMKVuIADFQAAAAAdAAAAABAE);
-        background-size: cover;
-        background-position: center;
-        border-radius: 50%;
-        bottom: 0;
-        position: absolute;
-    }
-    .selectValue{
-        height: 48px;
-        width: 40px;
-        position: absolute;
-        top: 0;
-        background: #ffd200;
-        border-radius: 4px;
-        text-align: center;
-        line-height: 45px;
+    span {
+        color: rgba(192, 192, 194, 1);
+        font-family: Josefin Sans;
         font-size: 20px;
-        font-weight: bold;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: -100px;
     }
-    // .form-range {
-    //     width: 100%;
-    //     height: 20px;
-    //     // border-radius: 50%;
-    //     background-color: transparent;
-    //     box-shadow: 200px 0 0 200px black;
-    //     cursor: pointer;
-    // }
-
-    // .form-range::-webkit-slider-thumb {
-    //     width: 20px;
-    //     height: 20px;
-    //     // border-radius: 50%;
-    //     background-color: transparent;
-    //     box-shadow: 200px 0 0 linear-gradient(89.71deg, #BD0F71 0.22%, #7F028A 99.72%);
-    //     cursor: pointer;
-    // }
 }
 
 @media only screen and (max-width : 992px) {
@@ -130,5 +75,11 @@
 
     .content {
         text-align: justify;
+    }
+
+    .skillsLevel {
+        margin: 100px 0 0 20%;
+        align-items: center;
+        text-align: left;
     }
 }

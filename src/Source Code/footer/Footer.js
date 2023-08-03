@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Footer.scss"
+import PhoneIcons from "../images/contact icons/Phone.png"
+import mailIcons from "../images/contact icons/Mail.png"
+import locationIcons from "../images/contact icons/Location.png"
 
 export default function Footer() {
     return (
@@ -13,7 +16,7 @@ export default function Footer() {
                         <div className="row">
                             <div className="col-4">
                                 <div className='ContactIcons p-3'>
-                                    <i class="fa-solid fa-phone"></i>
+                                    <img src={PhoneIcons} alt="" />
                                 </div>
                             </div>
                             <div className="col-8">
@@ -30,7 +33,7 @@ export default function Footer() {
                         <div className="row">
                             <div className="col-4">
                                 <div className='ContactIcons p-3'>
-                                    <i class="fa-regular fa-envelope"></i>
+                                <img src={mailIcons} alt="" />
                                 </div>
                             </div>
                             <div className="col-8">
@@ -47,7 +50,7 @@ export default function Footer() {
                         <div className="row">
                             <div className="col-4">
                                 <div className='ContactIcons p-3'>
-                                    <i class="fa-solid fa-location-dot"></i>
+                                <img src={locationIcons} alt="" />
                                 </div>
                             </div>
                             <div className="col-8">

@@ -16,13 +16,14 @@
 
 
     .socialMediaLogos {
-        color: white;
+        color: rgba(192, 192, 194, 1);
         align-items: start;
 
-        i {
+        i,img {
             padding-left: 30px;
             padding-right: 30px;
             font-size: 20px;
+            color: rgba(192, 192, 194, 1);
             border-left: 1px solid #BD0F71;
 
             &:first-child {
@@ -38,7 +39,7 @@
     }
 
     .myName {
-        color: white;
+        color: rgba(192, 192, 194, 1);
         font-size: 80px;
         font-weight: 700;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -53,7 +54,7 @@
         font-family: 'Josefin Sans', sans-serif;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: rgba(192, 192, 194, 1);
         border: 5px solid rgba(192, 192, 194, 1);
     }
 }
@@ -61,8 +62,8 @@
 .AboutMe {
     width: 100%;
     height: 100vh;
-    padding: 100px 0 0 0;
-
+    // margin : 0;
+    // padding: 100px 0 0 0;
     .AboutMeImage {
         img {
             width: 100%;
@@ -88,7 +89,7 @@
             font-size: 20px;
             font-weight: 400;
             font-family: 'Josefin Sans', sans-serif;
-            color: white;
+            color: rgba(192, 192, 194, 1);
         }
     }
 
@@ -114,7 +115,7 @@
         height: 100%;
         font-size: 16px;
         border-radius: 0;
-        color: white;
+        color: rgba(192, 192, 194, 1);
 
         span {
             transform: skewX(15deg);
@@ -126,7 +127,7 @@
         width: 50px;
         height: 100%;
         font-size: 30px;
-        color: white;
+        color: rgba(192, 192, 194, 1);
         display: flex;
         text-align: center;
         justify-content: center;
@@ -139,7 +140,7 @@
         width: 100%;
         height: 100%;
         font-size: 20px;
-        color: white;
+        color: rgba(192, 192, 194, 1);
         display: flex;
         text-align: center;
         justify-content: center;
@@ -156,7 +157,7 @@
     padding: 50px;
     background-color: rgba(31, 25, 31, 1);
     font-size: 20px;
-    color: white;
+    color: rgba(192, 192, 194, 1);
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
