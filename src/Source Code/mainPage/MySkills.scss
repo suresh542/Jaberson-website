@@ -52,19 +52,15 @@
 }
 
 .skillsLevel {
-    width: 60%;
-    position: relative;
-    text-align: left;
-    span {
-        color: rgba(192, 192, 194, 1);
-        font-family: Josefin Sans;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: left;
-        margin-bottom: -100px;
+    width: 80%;
+    text-align: center;
+    img {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
+
 }
 
 @media only screen and (max-width : 992px) {
@@ -78,8 +74,12 @@
     }
 
     .skillsLevel {
-        margin: 100px 0 0 20%;
+        margin: 100px 0 0 0;
         align-items: center;
-        text-align: left;
+        text-align: center;
     }
+    #mySkills{
+        margin: 200px 0 0 0;
+    }
+
 }

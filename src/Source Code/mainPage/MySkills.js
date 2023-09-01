@@ -1,14 +1,11 @@
 import React from 'react'
 import "./MySkills.scss"
-import figmaImage from "../images/skills image/figma.png"
-import XDImage from "../images/skills image/XD.png"
-import PSImage from "../images/skills image/Photoshop.png"
-import AIImage from "../images/skills image/AI.png"
+import Skills from "../images/Skills.png"
 
 export default function MySkills() {
     return (
         <div>
-            <div className="mySkills mt-5" id='mySkills' data-aos="fade-up">
+            <div className="mySkills" id='mySkills' data-aos="fade-up">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-6">
                         <div className="title">
@@ -20,19 +17,18 @@ export default function MySkills() {
                             </span>
                         </div>
                         <div className="content mt-5">
-                            I'm a UI/UX Designer based in Tamilnadu India, with a passion for designing beautiful
-                            and functional user experiences. I'm passionate about improving the lives of others
-                            through design and am constantly looking to learn new things everyday.
-
-                            I'm a UI/UX Designer based in Tamilnadu India, with a passion for designing
-                            beautiful and functional user experiences. I'm passionate about improving the
-                            lives of others through design and am constantly looking to learn new things everyday.
-
-                            <div className='mt-5'>
-                                I'm a UI/UX Designer based in Tamilnadu India, with a passion for designing beautiful
-                                and functional user experiences. I'm passionate about improving the lives of others through
-                                design and am constantly looking to learn new things everyday.
-                            </div>
+                            In my toolkit, you'll find a blend of expertise. I dive into user research, uncovering insights 
+                            that shape design decisions. Wireframing allows me to create clear blueprints for seamless 
+                            interactions. Visual design and typography are my canvas for creating visually appealing and 
+                            cohesive interfaces with a background in graphic design, I add a touch of artistry to every project.
+                             Interaction design is seamless flows and transitions that guide users effortlessly through their journey.
+                           <br /> <br />I wield a range of powerful tools to bring my designs to life. 
+                           Figma and Adobe XD are my go-to platforms for wireframing and prototyping, 
+                           while Illustrator and Photoshop enable me to refine visual elements with finesse.
+                            By merging design theory with practical tools, I create interfaces that not only 
+                            meet users' needs but also exceed their expectations.
+                           <br /><br /> Let's collaborate to transform your ideas into stunning, user-friendly designs!
+                            
                         </div>
                         <div className='ContactBtn mt-5'>
                             <button type="button" className='btn CVBtns text-uppercase' id='ContactBtns'>
@@ -40,38 +36,9 @@ export default function MySkills() {
                             </button>
                         </div>
                     </div>
-                    <div className="col-xs-12 col-sm-12 col-md-6">
+                    <div className="col-xs-12 col-sm-12 col-md-6 d-flex justify-content-center">
                         <div className="skillsLevel">
-                            <div className="figma mb-5">
-                                    <span class="form-label">Figma</span>
-                                    <div>
-                                        <img src={figmaImage} alt="" width={"100%"} />
-                                    </div>
-                            </div>
-                            <div className="adobeXd mb-5">
-                                <span>
-                                    Adobe Xd
-                                </span>
-                                <div>
-                                <img src={XDImage} alt=""  width={"100%"}/>
-                                </div>
-                            </div>
-                            <div className="Photoshop mb-5">
-                                <span>
-                                    Photoshop
-                                </span>
-                                <div>
-                                <img src={PSImage} alt="" width={"100%"} />
-                                </div>
-                            </div>
-                            <div className="Illustrator">
-                                <span>
-                                    Illustrator
-                                </span>
-                                <div>
-                                <img src={AIImage} alt="" width={"100%"} />
-                                </div>
-                            </div>
+                            <img src={Skills} alt="" width={"100%"} />
                         </div>
                     </div>
                 </div>

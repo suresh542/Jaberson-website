@@ -5,10 +5,10 @@ import MainLogo from "../images/MainLogo.png"
 export default function Header() {
     return (
         <div className='mainHeader'>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ps-md-5 pe-md-5">
                 <div class="container-fluid ">
-                    <a class="navbar-brand" href="Home">
-                        <img src={MainLogo} alt="" />
+                    <a class="navbar-brand" href="#Home">
+                        <img src={MainLogo} alt=""/>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" id="menuIcon" aria-label="Toggle navigation">
                         <i class="fas fa-bars" id='menuIcons'></i>

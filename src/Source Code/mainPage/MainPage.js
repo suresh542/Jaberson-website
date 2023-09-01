@@ -11,10 +11,19 @@ import TwitterIcons from "../images/icons/twitter.png"
 import LinkedInIcons from "../images/icons/linkedin.png"
 import BehanceIcons from "../images/icons/behance.png"
 import InstagramIcons from "../images/icons/instagram.png"
+import Figma from "../images/skills image/Figma.png"
+import AdobeXD from "../images/skills image/AdobeXD.png"
+import AdobePS from "../images/skills image/AdobePS.png"
+import AdobeI from "../images/skills image/AdobeI.png"
+
+
+
+
+
 
 export default function MainPage() {
     return (
-        <div className='JabersonWebPage'>
+        <div className='JabersonWebPage d-block'>
             <div className="header">
                 <Header />
             </div>
@@ -22,13 +31,13 @@ export default function MainPage() {
                 <div className="introductions ">
                     <div className="row">
                         <div className="col-md-4 ps-md-5 ">
-                            <div className=''>
+                            <div className='IntoContant'>
                                 <div className="socialMediaLogos d-flex justify-content-start">
-                                    <img src={FacebookIcons} alt="" />
-                                    <img src={InstagramIcons} alt="" />
-                                    <img src={TwitterIcons} alt="" />
-                                    <img src={LinkedInIcons} alt="" />
-                                    <img src={BehanceIcons} alt="" />
+                                    <img src={FacebookIcons} alt="facebook" />
+                                    <img src={InstagramIcons} alt="insta" />
+                                    <img src={TwitterIcons} alt="twitter" />
+                                    <img src={LinkedInIcons} alt="linkedIn" />
+                                    <img src={BehanceIcons} alt="Behance" />
 
 
                                 </div>
@@ -36,26 +45,27 @@ export default function MainPage() {
                                     I'm Jaberson
                                 </div>
                                 <div className="designations mt-md-3">
-                                UI/UX Designer
+                                    UI/UX Designer
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-8">
-                            <div className='myImage pe-md-5'>
-                                <img src={Hello} alt="" width={"100%"} height={"100%"} />
+                            <div className='myImage'>
+                                <img src={Hello} alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div className="AboutMe" id='AboutMe' data-aos="fade-up">
-                    <div className="row">
+                    <div className="row" >
                         <div className="col-xs-12 col-sm-12 col-md-6">
-                            <div className="AboutMeImage ">
+                            <div className="AboutMeImage p-1">
                                 <img src={AboutMe} alt="" />
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 ">
-                            <div className=''>
+                            <div className='mt-5'>
                                 <div className="title">
                                     About Me
                                 </div>
@@ -63,9 +73,10 @@ export default function MainPage() {
                                     <span className='border border-light'> Hi There</span>
                                 </div>
                                 <div className="content mt-5">
-                                    I'm a UI/UX Designer based in Tamilnadu India, with a passion for designing
-                                    beautiful and functional user experiences. I'm passionate about improving the
-                                    lives of others through design and am constantly looking to learn new things everyday.
+                                    I'm a UI/UX Designer based in Tamilnadu India, with a passion for designing beautiful
+                                    and functional user experiences. I love making digital things look great and work even
+                                    better. I'm super excited about learning new things and stay up-to-date with the latest
+                                    design trends. Let's create something amazing together!
                                 </div>
                                 <div className="buttonsHere mt-5 ">
                                     <div className="hereMe1">
@@ -91,7 +102,13 @@ export default function MainPage() {
                 <div className="MySkills ps-md-5 pe-md-5">
                     <MySkills />
                 </div>
+                <div className='ApplicationsUIUX d-flex'>
+                    <img src={Figma} alt="" />
+                    <img src={AdobeXD} alt="" />
+                    <img src={AdobePS} alt="" />
+                    <img src={AdobeI} alt="" />
 
+                </div>
                 <div className="Portfolio ps-md-5 pe-md-5">
                     <Portfolio />
                 </div>
