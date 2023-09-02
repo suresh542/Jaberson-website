@@ -32,23 +32,6 @@
         text-align: justify;
     }
 
-    #ContactBtns {
-        border: 1px solid white;
-        height: 100%;
-        padding: 10px;
-        transform: skewX(-15deg);
-        font-size: 20px;
-        color: rgba(192, 192, 194, 1);
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-
-        span {
-            padding: 0 30px 0 30px;
-            transform: skewX(15deg);
-        }
-    }
 }
 
 .skillsLevel {

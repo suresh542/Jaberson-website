@@ -102,13 +102,29 @@ export default function MainPage() {
                 <div className="MySkills ps-md-5 pe-md-5">
                     <MySkills />
                 </div>
+                </div>
                 <div className='ApplicationsUIUX d-flex'>
-                    <img src={Figma} alt="" />
-                    <img src={AdobeXD} alt="" />
-                    <img src={AdobePS} alt="" />
-                    <img src={AdobeI} alt="" />
+                    <div>
+                        <span>Figma</span>
+                        <img src={Figma} alt="" />
+                    </div>
+                    <div>
+                        <span>Adobe XD</span>
+                        <img src={AdobeXD} alt="" />
+                    </div>
+                    <div>
+                        <span>Adobe Photoshop</span>
+                        <img src={AdobePS} alt="" />
+                    </div>
+                    <div>
+                        <span>
+                            Adobe Illustrator
+                        </span>
+                        <img src={AdobeI} alt="" />
+                    </div>
 
                 </div>
+                <div>
                 <div className="Portfolio ps-md-5 pe-md-5">
                     <Portfolio />
                 </div>

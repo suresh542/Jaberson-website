@@ -30,11 +30,6 @@ export default function MySkills() {
                            <br /><br /> Let's collaborate to transform your ideas into stunning, user-friendly designs!
                             
                         </div>
-                        <div className='ContactBtn mt-5'>
-                            <button type="button" className='btn CVBtns text-uppercase' id='ContactBtns'>
-                                <span>contact me</span>
-                            </button>
-                        </div>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6 d-flex justify-content-center">
                         <div className="skillsLevel">
