@@ -19,8 +19,8 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-4" id='contactMe'>
                         <div className="row">
-                            <div className="col-4">
-                                <div className='ContactIcons p-3'>
+                            <div className="col-4 contact">
+                                <div className='ContactIcons'>
                                     <img src={PhoneIcons} alt="" />
                                 </div>
                             </div>
@@ -71,12 +71,12 @@ export default function Footer() {
                 </div>
             </div>
             <div className="socialMediaIcons ">
-                <div className="socialMediaLogos d-flex justify-content-start ">
-                    <img src={FacebookIcons} alt="" />
-                    <img src={InstagramIcons} alt="" />
-                    <img src={TwitterIcons} alt="" />
-                    <img src={LinkedInIcons} alt="" />
-                    <img src={BehanceIcons} alt="" />
+                <div className="socialMediaLogos d-flex justify-content-start">
+                    <img src={FacebookIcons} alt="facebook" />
+                    <img src={InstagramIcons} alt="insta" />
+                    <img src={TwitterIcons} alt="twitter" />
+                    <img src={LinkedInIcons} alt="linkedIn" />
+                    <img src={BehanceIcons} alt="Behance" />
                 </div>
             </div>
 

@@ -15,8 +15,7 @@ import Figma from "../images/skills image/Figma.png"
 import AdobeXD from "../images/skills image/AdobeXD.png"
 import AdobePS from "../images/skills image/AdobePS.png"
 import AdobeI from "../images/skills image/AdobeI.png"
-
-
+import Resume from "../resume/Resume - Jaberson.pdf"
 
 
 
@@ -82,16 +81,18 @@ export default function MainPage() {
                                     <div className="hereMe1">
                                         <div className='d-flex'>
                                             <div>
-                                                <button type='button' className='btn hereMe text-uppercase p-3' id='hereMe'>
-                                                    <span>Hire Me</span>
-                                                </button>
+                                                <a href="#Contact">
+                                                    <button type='button' className='btn hereMe text-uppercase p-3' id='hereMe'>
+                                                        <span>Hire Me</span>
+                                                    </button></a>
                                             </div>
                                             <div>
-                                                <i class="fa-solid fa-arrow-right ms-2 "></i>
+                                                <a href="#Contact" className='text-decoration-none'>
+                                                    <i class="fa-solid fa-arrow-right ms-2 "></i></a>
                                             </div>
                                         </div>
                                         <div className='CVBtnHere'>
-                                            <button type="button" className='btn CVBtns ms-md-5 text-uppercase' id='CVBtns'><span>Download my cv</span></button>
+                                            <button type="button" className='btn CVBtns ms-md-5 text-uppercase' id='CVBtns'> <a href={Resume} className='text-decoration-none resumeBtn'><span>Download my cv</span></a></button>
                                         </div>
                                     </div>
                                 </div>
@@ -102,29 +103,38 @@ export default function MainPage() {
                 <div className="MySkills ps-md-5 pe-md-5">
                     <MySkills />
                 </div>
+            </div>
+            <div className='ApplicationsUIUX'>
+                <div className="row p-0">
+                    <div className="col-md-3 p-0">
+                        <div className=''>
+                            <span>Figma</span>
+                            <img src={Figma} alt="" />
+                        </div>
+                    </div>
+                    <div className="col-md-3 p-0">
+                        <div>
+                            <span>Adobe XD</span>
+                            <img src={AdobeXD} alt="" />
+                        </div>
+                    </div>
+                    <div className="col-md-3 p-0">
+                        <div>
+                            <span>Adobe Photoshop</span>
+                            <img src={AdobePS} alt="" />
+                        </div>
+                    </div>
+                    <div className="col-md-3 p-0">
+                        <div>
+                            <span>
+                                Adobe Illustrator
+                            </span>
+                            <img src={AdobeI} alt="" />
+                        </div>
+                    </div>
                 </div>
-                <div className='ApplicationsUIUX d-flex'>
-                    <div>
-                        <span>Figma</span>
-                        <img src={Figma} alt="" />
-                    </div>
-                    <div>
-                        <span>Adobe XD</span>
-                        <img src={AdobeXD} alt="" />
-                    </div>
-                    <div>
-                        <span>Adobe Photoshop</span>
-                        <img src={AdobePS} alt="" />
-                    </div>
-                    <div>
-                        <span>
-                            Adobe Illustrator
-                        </span>
-                        <img src={AdobeI} alt="" />
-                    </div>
-
-                </div>
-                <div>
+            </div>
+            <div>
                 <div className="Portfolio ps-md-5 pe-md-5">
                     <Portfolio />
                 </div>

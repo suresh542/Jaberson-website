@@ -17,7 +17,7 @@
     width: 110px;
     height: 110px;
     transform: skewX(-7deg);
-    font-size: 70px;
+    // font-size: 70px;
     color: rgba(192, 192, 194, 1);
     display: flex;
     text-align: center;
@@ -59,7 +59,8 @@
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
     text-align: left;
-    a{
+
+    a {
         color: rgba(192, 192, 194, 1);
         text-decoration: none;
     }
@@ -73,15 +74,57 @@
     text-align: center;
 }
 
+.socialMediaLogos {
+    color: rgba(192, 192, 194, 1);
+    align-items: start;
 
-@media only screen and (max-width:992px){
-    #contactMe{
+    i,
+    img {
+        padding-left: 30px;
+        padding-right: 25px;
+        font-size: 20px;
+        color: rgba(192, 192, 194, 1);
+        border-left: 1px solid #BD0F71;
+
+        &:first-child {
+            border-left: none;
+            padding-left: 0;
+        }
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+
+}
+
+@media only screen and (max-width:992px) {
+    #contactMe {
         margin-top: 50px;
     }
-    .col-8{
-        .Contact,.phoneNumber{
+
+    .ContactIcons {
+        width: 90px;
+        height: 90px;
+    }
+    .contact{
+        
+    }
+
+    .col-8 {
+
+        .Contact,
+        .phoneNumber {
             padding: 0 20px 0 20px;
             font-size: 20px;
         }
+    }
+
+    .socialMediaLogos {
+        i {
+            font-size: 18px;
+        }
+
+        padding: 5px 10px 0 0px;
     }
 }
